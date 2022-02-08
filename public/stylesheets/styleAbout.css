@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Lobster&family=Press+Start+2P&display=swap');
+
+
+body {
+    background: url(/images/IMG_0153.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+  }
+
+  .dark-background {
+    background-color: rgba(25, 33, 41, 0.5);
+    color: white;
+  }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+  }
+
+  #general-information {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #general-information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+  }
+
+  h1 {
+      font-family: 'Lobster';
+      text-decoration: underline;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: yellow;
+  }
+
+  #navbar {
+    padding-top: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+} 
+
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    
+    }
+
+#navbar .navbar-container ul li {
+    padding: 0 20px;
+    font-size: 30px;
+    
+   
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#navbar .navbar-container {
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3 {
+    font-family: 'Lobster';
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.text {
+    font-family: 'Fira Sans';
+    font-size: 20px;
+}

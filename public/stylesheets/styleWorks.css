@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Lobster&family=Press+Start+2P&display=swap');
+
+
+body {
+    background: url(/images/plex-arcade-hero-synth-grid.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+  }
+
+  h1 {
+      text-decoration: underline;
+    font-family: 'Lobster';
+    padding-top: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: aliceblue;
+  }
+
+  h3 {
+    font-family: 'Fira Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    
+}
+
+
+#navbar {
+    padding-top: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+} 
+
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    
+    }
+
+#navbar .navbar-container ul li {
+    padding: 0 20px;
+    font-size: 30px;
+    
+   
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#navbar .navbar-container {
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-btn {
+    font-family: 'Press Start 2P';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 30px;
+    color: yellow;
+    text-decoration: underline;
+}
